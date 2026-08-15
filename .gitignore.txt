@@ -1,0 +1,31 @@
+### PyCharm / IntelliJ WebStorm/PhpStorm/Idea IDE templates
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Optional: If you want to share specific PyCharm settings with your team, 
+# uncomment the lines below but keep user-specific files ignored:
+# !.idea/runConfigurations/
+# !.idea/vcs.xml
+# !.idea/codeStyles/
+
+### Python specific files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+### Local environment variables and secrets
+.env
+.secrets
+
+.json
+.spotify_cache
